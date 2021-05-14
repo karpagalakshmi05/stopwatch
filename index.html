@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width ,initial-scale=1.0">
+        <title>StopWatch</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    </head>
+    <body id="box">
+        <div class="container-fluid" style="height: 100vh;">
+            <div class="row" style="height:100vh">
+              <div class="col-md-4">
+
+              </div>
+              <div class="col-md-4 my-auto">
+                  <div class="jumbotron p-3">
+                     <h1 class="text-center">STOPWATCH</h1>
+                     <hr> <!--thematic break-->
+
+                    <h6 class="text-center my-3">Minutes - Seconds - MiliSeconds</h6>
+                     <h1 class="text-center my-3">    
+                        <span id="divMin">00</span> -
+                        <span id="divSec">00</span> -
+                        <span id="divMsec">000</span>
+                    </h1>
+                    <button class="btn btn-block btn-success" id="btnStart">Start</button><!--btn green-->
+                    <button class="btn btn-block btn-warning" id="btnPause" style="display: none;">Pause</button> <!--btn-orange-->
+                    <button class="btn btn-block btn-success" id="btnResume" style="display: none;">Resume</button><!--btn green-->
+                    <button class="btn btn-block btn-danger" id="btnReset" style="display: none;">Reset</button> <!--btn red-->
+                  </div>
+              </div> 
+              <div class="col-md-4">     
+              </div>
+            </div>            
+        </div>
+        <script src="./main.js"></script>
+    </body>
+</html>

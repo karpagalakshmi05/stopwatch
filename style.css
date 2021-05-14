@@ -1,0 +1,12 @@
+#box{
+    background-image: url(images/pic2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  button.btn-warning {
+      color: white;
+  }
+  
+  button.btn-warning:hover {
+      color: white;
+  }
